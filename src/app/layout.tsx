@@ -3,6 +3,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Navigation from "@/components/navbar5";
 import { Toaster } from "react-hot-toast";
+import Head from "next/head";
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
@@ -26,6 +27,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en " className="dark">
+      <Head>
+        <title>Artistly</title>
+        <link rel="icon" type="image/svg+xml" href="/music-svgrepo-com.svg" />
+      </Head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
         <Navigation />
