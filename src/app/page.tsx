@@ -80,7 +80,7 @@ export default function Home() {
           <h2 className="bg-clip-text text-transparent text-center bg-gradient-to-r from-yellow-500 to-yellow-300 dark:from-neutral-600 dark:to-white text-2xl md:text-4xl lg:text-7xl font-sans py-2 md:py-10 relative z-20 font-bold tracking-tight">
             Connect with Artists <br />
             <ContainerTextFlip
-              words={["Singer", "Dancer", "DJ", "Performer"]}
+              words={["Singer", "Dancer", "DJ", "Performer","Rapper","Comedian"]}
             />
           </h2>
           <div className="mt-3 flex space-x-4 z-20">
