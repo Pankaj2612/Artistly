@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "name": "Alex Rivera",
+    "category": ["Singer", "Guitarist"],
+    "city": "Nashville, TN",
+    "fee": "$1,500 - $3,000",
+    "submittedAt": "2025-01-15T10:30:00Z",
+    "status": "pending"
+  },
+  {
+    "id": 2,
+    "name": "Maya Patel",
+    "category": ["Dancer"],
+    "city": "Atlanta, GA",
+    "fee": "$2,000 - $4,000",
+    "submittedAt": "2025-01-14T15:45:00Z",
+    "status": "approved"
+  },
+  {
+    "id": 3,
+    "name": "Chris Johnson",
+    "category": ["DJ", "Producer"],
+    "city": "Detroit, MI",
+    "fee": "$1,000 - $2,500",
+    "submittedAt": "2025-01-13T09:15:00Z",
+    "status": "pending"
+  },
+  {
+    "id": 4,
+    "name": "Rachel Kim",
+    "category": ["Speaker"],
+    "city": "Portland, OR",
+    "fee": "$3,500 - $7,000",
+    "submittedAt": "2025-01-12T14:20:00Z",
+    "status": "approved"
+  }
+]
