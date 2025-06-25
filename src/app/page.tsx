@@ -1,3 +1,4 @@
+"use client"
 import { BackgroundLines } from "@/components/ui/background";
 
 import { Button } from "@/components/ui/button";
@@ -31,9 +32,15 @@ const cards = [
     src: "/categories/speaker2.jpg",
   },
   {
-    id: "guitarist",
-    title: "The road not taken",
-    src: "https://images.unsplash.com/photo-1507041957456-9c397ce39c97?q=80&w=3456&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    id: "actor",
+    title: "Actors",
+    src: "/categories/actors.jpg",
+  },
+
+  {
+    id: "rapper",
+    title: "Rappers",
+    src: "/categories/rapper.jpg",
   },
 ];
 
@@ -94,6 +101,11 @@ export default function Home() {
             <Button
               variant="myTypeGhost"
               size="lg"
+              onClick={() =>
+                document
+                  .getElementById("learn-more")
+                  ?.scrollIntoView({ behavior: "smooth" })
+              }
               className="rounded-full text-lg h-auto bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700  text-white">
               <LucideLightbulb />
               Learn More
@@ -101,6 +113,11 @@ export default function Home() {
             <Button
               variant="myTypeGhost"
               size="lg"
+              onClick={() =>
+                document
+                  .getElementById("browse-category")
+                  ?.scrollIntoView({ behavior: "smooth" })
+              }
               className="rounded-full bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 text-lg h-auto">
               Get Started <ArrowRight />
             </Button>
@@ -109,7 +126,7 @@ export default function Home() {
       </div>
 
       {/* Browse by Category */}
-      <section className="py-20 bg-black relative z-10">
+      <section className="py-20 bg-black relative z-10" id="browse-category">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold mb-4 text-white">
@@ -123,7 +140,7 @@ export default function Home() {
           <FocusCards cards={cards} />
         </div>
       </section>
-      <section className="py-20">
+      <section className="py-20" id="learn-more">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold mb-4">
