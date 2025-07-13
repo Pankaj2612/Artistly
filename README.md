@@ -1,36 +1,32 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🎨 Artistly – Performing Artist Booking Platform
 
-## Getting Started
+Artistly is a modern, responsive web application that bridges the gap between **Event Planners** and **Artist Managers**. Built with **Next.js (App Router)**, **React**, and **Tailwind CSS**, it provides a clean, user-friendly interface to book and manage performing artists.
 
-First, run the development server:
+## 🚀 Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+### 🧑‍🎤 For Event Planners
+- Browse artist profiles with filters for **category**, **language**, **location**, and **fee**
+- View detailed artist cards with image, bio, availability, and more
+- Shortlist and send **booking requests** or **quote inquiries**
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 👨‍💼 For Artist Managers
+- Add new artists via a **multi-step onboarding form**
+- Upload images, enter bio, select categories and performance languages
+- View, manage, and update all incoming booking requests
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🛠️ Tech Stack
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **Framework**: [Next.js 13+](https://nextjs.org/) (App Router)
+- **Frontend**: [React](https://reactjs.org/), [TypeScript](https://www.typescriptlang.org/)
+- **Styling**: [Tailwind CSS](https://tailwindcss.com/), [ShadCN UI](https://ui.shadcn.com/)
+- **Forms & Validation**: [React Hook Form](https://react-hook-form.com/), [Yup](https://github.com/jquense/yup)
+- **Data Handling**: Mock JSON-based artist data (can be extended to a backend)
 
-## Learn More
+## 📸 Screenshots
 
-To learn more about Next.js, take a look at the following resources:
+| Home Page | Artist Detail | Add Artist Form | Manager Dashboard |
+|-----------|----------------|------------------|-------------------|
+| ![Home](screenshots/home.png) | ![Artist Detail](screenshots/detail.png) | ![Add Artist](screenshots/add.png) | ![Dashboard](screenshots/dashboard.png) |
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🧭 Project Structure
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
